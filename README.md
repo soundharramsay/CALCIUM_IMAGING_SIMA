@@ -29,6 +29,8 @@ In scu
 2. conda activate sima_napeca_env
 3. set the right directory
 4. Launch Jupyter notebook
+######### in imac 
+5. ssh -N -L localhost:8888:localhost:8888 sor4003@scu-login02.med.cornell.edu
 
    
 
