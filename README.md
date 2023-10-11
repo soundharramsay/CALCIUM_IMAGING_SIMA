@@ -2,6 +2,7 @@
 
 ## reference 
 https://zhounapeuw.github.io/NAPE_imaging_analysis/install_anaconda_sima.html
+https://github.com/zhounapeuw/NAPE_imaging_analysis
 
 1. git clone above repo
 2. conda env create -n sima_napeca_env -f napeca_linux.yml
