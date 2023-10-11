@@ -17,3 +17,8 @@ git clone https://github.com/losonczylab/roibuddy.git
 pip install guidata==1.7.9
 conda install -c conda-forge guiqwt
 than install from source 
+
+###### in iMAc
+docker pull losonczylab/roibuddy
+(base) soundhar@MAC308219 ~ % docker run -it --rm --net=host --env="DISPLAY" -v $HOME/.Xauthority:/root/.Xauthority:rw -v /Users/soundhar/roibuddy/output_z_stack_movie.tif --name roibuddy losonczylab/roibuddy
+open >>xquartz>>preference>>security>>allow to project graphic
