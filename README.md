@@ -10,15 +10,27 @@ https://zhounapeuw.github.io/NAPE_imaging_analysis/install_anaconda_sima.html
 
 5. Python 2.7.17
 
-### for ROIbuddy 
-
+### for ROIbuddy failed in scu
 gitclone roibuddy 
 git clone https://github.com/losonczylab/roibuddy.git
 pip install guidata==1.7.9
 conda install -c conda-forge guiqwt
 than install from source 
 
-###### in iMAc
+###### in iMAc for roibuddy 
 docker pull losonczylab/roibuddy
 (base) soundhar@MAC308219 ~ % docker run -it --rm --net=host --env="DISPLAY" -v $HOME/.Xauthority:/root/.Xauthority:rw -v /Users/soundhar/roibuddy/output_z_stack_movie.tif --name roibuddy losonczylab/roibuddy
 open >>xquartz>>preference>>security>>allow to project graphic
+
+
+#### how to start 
+In scu 
+1. activate base eval "$(/home/sor4003/anaconda3/bin/conda shell.bash hook)"
+2. conda activate sima_napeca_env
+3. set the right directory
+4. Launch Jupyter notebook
+
+   
+
+
+
